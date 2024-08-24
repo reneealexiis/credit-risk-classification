@@ -12,13 +12,13 @@ To predict loan status, the model used other financial variables such as loan si
   - Model Training: A logistic regression model was instantiated and fitted using the training data.
   - Model Evaluation: Predictions were made on the testing data, and the model's performance was evaluated using a confusion matrix and classification report.
 * Methods Used:
-  - Logistic Regression: The primary algorithm used in this analysis was logistic regression from the sklearn library. Logistic regression is a commonly used     algorithm for binary classification tasks like predicting loan status.
+  - Logistic Regression: The primary algorithm used in this analysis was logistic regression from the sklearn library. 
   - Train-Test Split: The data was split into training and testing sets to train the model on one set and evaluate its performance on another.
   - Confusion Matrix and Classification Report: These evaluation metrics were used to assess the model's performance in predicting healthy and high-risk loans.
 
-This analysis successfully utilized financial information from the dataset to predict loan status using logistic regression. The model demonstrated high accuracy, precision, and recall for both healthy and high-risk loans, making it a reliable tool for identifying creditworthiness among borrowers.
-
 ## Results
+
+This analysis successfully utilized financial information from the dataset to predict loan status using logistic regression. The model demonstrated high accuracy, precision, and recall for both healthy and high-risk loans, making it a reliable tool for identifying creditworthiness among borrowers.
 
 * The model achieved an accuracy score of 0.99, indicating that it correctly predicted 99% of the loan statuses.
 * For healthy loans (Class 0), the precision score was perfect at 1.00, meaning that when the model predicted a loan as healthy, it was correct 100% of the time.
@@ -28,7 +28,7 @@ This analysis successfully utilized financial information from the dataset to pr
 
 ## Summary
 
-In summary, the model does a great job at identifying high-risk loans, with a precision of 0.84 and a recall of 0.94. This means it correctly finds most of the actual high-risk loans and balances accuracy well. Overall, the logistic regression model is very effective in predicting both safe and high-risk loans, showing high accuracy and strong performance for both categories.
+In summary, the model does a great job at identifying high-risk loans, with a precision of 0.84 and a recall of 0.94. This means it correctly finds most of the actual high-risk loans and balances accuracy well. Overall, the logistic regression model is effective in predicting both safe and high-risk loans, showing high accuracy and strong performance for both categories.
 
 ### Instructions to Final Work 
 
